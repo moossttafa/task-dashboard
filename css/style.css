@@ -1,0 +1,380 @@
+@import url("https://fonts.googleapis.com/css2?family=Changa&display=swap");
+* {
+  padding: 0;
+  margin: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  font-family: tahoma;
+  -webkit-transition: all 0.3s ease;
+  transition: all 0.3s ease;
+  text-align: right;
+  scroll-behavior: smooth;
+}
+
+body {
+  direction: rtl;
+}
+
+.col-3 {
+  max-width: 21.5%;
+}
+
+@media (max-width: 768px) {
+  .col-3 {
+    max-width: 25% impo !important;
+    -webkit-box-flex: 0;
+    -ms-flex: 0 0 25%;
+  }
+}
+
+.next-page {
+  position: relative;
+}
+
+.next-page .fas {
+  position: absolute;
+  left: 15px;
+  top: 14px;
+  color: #cfd9e0;
+}
+
+.btn-market {
+  margin: 13px 10px 9px;
+  padding: 9px 11px 15px 17px;
+  border-radius: 7px;
+  border: solid 1px #3f819b;
+  background-color: #ffffff;
+  color: #3f819b;
+  font-size: 16px;
+  font-weight: bold;
+  font-stretch: normal;
+  font-style: normal;
+}
+
+.search {
+  margin: 12px 5px 0px 10px;
+  padding: 9px 12px 12px;
+  height: 44px;
+  border: 0;
+  border-radius: 7px;
+  background-color: #ffffff;
+  font-size: 14px;
+  font-weight: 600;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.14;
+  letter-spacing: normal;
+  text-align: right;
+  color: #959ea9 im !important;
+}
+
+i {
+  position: absolute;
+  top: 33px;
+  left: 47%;
+  color: #959ea9;
+}
+
+.navbar {
+  border-bottom: 1px solid #e0e0e0;
+  padding: .5rem 0rem;
+}
+
+.container-fluid {
+  padding-left: 0;
+  padding-right: 0;
+}
+
+.navbar-light .navbar-nav .nav-link img {
+  width: 50px;
+  height: 50px;
+  margin: 0 19px 0 17px;
+  background-color: #d8d8d8;
+  border-radius: 50%;
+}
+
+.navbar-collapse .navbar-nav .btn {
+  width: 79px;
+  height: 40px;
+  padding: 9px 10px 14px 13px;
+  border-radius: 7px;
+  background-color: #fca120;
+  outline: none;
+  border: 0;
+  margin: 13px 10px;
+}
+
+.nav-item .dropdown {
+  display: -webkit-inline-box;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+}
+
+.navbar-brand {
+  font-family: 'Changa', sans-serif;
+  font-size: 18px;
+  font-weight: 700;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1;
+  letter-spacing: normal;
+  text-align: right;
+  color: #0b2339 !important;
+}
+
+.navbar-light .navbar-nav .nav-link {
+  color: rgba(0, 0, 0, 0.5);
+  font-family: HelveticaNeueLTW20;
+  font-size: 15px;
+  font-weight: bold;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.07;
+  letter-spacing: normal;
+  text-align: center;
+  color: #0b2339;
+}
+
+.Dashop-Layout {
+  height: 1090px;
+  padding: 0 0 0 28px;
+  background-color: #f6f9fb;
+}
+
+.Dashop-Layout .sidenav {
+  width: 219px;
+  height: 1090px;
+  margin: 0 0 0 29px;
+  padding: 28px 0 31px;
+  background-color: #175872;
+  position: relative;
+}
+
+.Dashop-Layout .sidenav .Group-21-Copy-2 {
+  width: 98px;
+  height: 64px;
+  margin: 0 60px 25px 61px;
+  padding: 0 8px 10px 7px;
+  -o-object-fit: contain;
+     object-fit: contain;
+}
+
+.Dashop-Layout .sidenav .sidebar-ul .list-item {
+  list-style: none;
+  list-style: none;
+  padding: 9px 14px 10px 62px;
+}
+
+.Dashop-Layout .sidenav .sidebar-ul .list-item a {
+  margin: 0 10px 0 0;
+  font-family: DubaiW23;
+  font-size: 17px;
+  font-weight: bold;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  text-align: right;
+  color: #cfd9e0;
+  text-decoration: none;
+}
+
+.Dashop-Layout .sidenav .sidebar-ul .list-item .shape {
+  margin: 6px 0 4px 10px;
+  -o-object-fit: contain;
+     object-fit: contain;
+  background-color: #cfd9e0;
+}
+
+.Dashop-Layout .sidenav .sidebar-ul .list-item:hover {
+  background-color: #3f819b;
+}
+
+.Dashop-Layout .sidenav .sidebar-ul .sating {
+  bottom: 0px;
+  position: absolute;
+}
+
+.Dashop-Layout .header .header-ul {
+  justify-items: center;
+  text-align: center;
+}
+
+.Dashop-Layout .header .header-ul a {
+  text-decoration: none;
+}
+
+.Dashop-Layout .header .header-ul .header-list {
+  justify-items: center;
+  text-align: center;
+  list-style: none;
+  margin: 0 5px 0 0;
+  padding: 15px 23px 16px 23px;
+  border-radius: 7px;
+  -webkit-box-shadow: 0 13px 35px 0 rgba(63, 129, 155, 0.15);
+          box-shadow: 0 13px 35px 0 rgba(63, 129, 155, 0.15);
+  border: solid 1px rgba(175, 182, 199, 0.4);
+  background-color: #ffffff;
+  display: -ms-inline-grid;
+  display: inline-grid;
+  font-size: 15px;
+  font-weight: bold;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.07;
+  letter-spacing: normal;
+  text-align: center;
+  color: #0b2339;
+}
+
+.Dashop-Layout .header .header-ul .header-list .conveyor-belt,
+.Dashop-Layout .header .header-ul .header-list .paint-brush,
+.Dashop-Layout .header .header-ul .header-list .Group,
+.Dashop-Layout .header .header-ul .header-list .Shape,
+.Dashop-Layout .header .header-ul .header-list .phone-laptop {
+  margin: 0 8px 11px 6px;
+  -o-object-fit: contain;
+     object-fit: contain;
+}
+
+.Dashop-Layout .header .header-ul .header-list .phone-laptop {
+  color: #3f819b;
+}
+
+.Dashop-Layout .header .header-ul .active {
+  background-color: #3f819b;
+  color: #ffffff;
+}
+
+.Dashop-Layout .header .title {
+  margin: 40px 0px 16px 0px;
+  font-family: 'Changa', sans-serif;
+  font-weight: bold;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 0.66;
+  letter-spacing: normal;
+  text-align: center;
+  color: #0b2339;
+}
+
+.Dashop-Layout .header .pargraph {
+  opacity: 0.5;
+  font-family: system-ui;
+  font-size: 20px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.05;
+  letter-spacing: normal;
+  text-align: center;
+  color: #0b2339;
+}
+
+.Dashop-Layout .header .plan {
+  padding-top: 40px;
+}
+
+.Dashop-Layout .header .plan .Combined-Shape {
+  width: 232px;
+  height: 481px;
+  margin: 0 0 20px;
+  padding: 6px;
+  background-color: #ecedf0;
+  border-radius: 12%;
+}
+
+.Dashop-Layout .header .plan .Combined-Shape .Rectangle,
+.Dashop-Layout .header .plan .Combined-Shape .Rectangle2,
+.Dashop-Layout .header .plan .Combined-Shape .Rectangle3,
+.Dashop-Layout .header .plan .Combined-Shape .Rectangle4 {
+  padding: 163px 56px;
+  border-radius: 2px;
+  background-color: #2b2e2f;
+  margin: 46px 11px;
+}
+
+.Dashop-Layout .header .plan .Combined-Shape .Rectangle .logo,
+.Dashop-Layout .header .plan .Combined-Shape .Rectangle2 .logo,
+.Dashop-Layout .header .plan .Combined-Shape .Rectangle3 .logo,
+.Dashop-Layout .header .plan .Combined-Shape .Rectangle4 .logo {
+  width: 119px;
+  height: 48px;
+}
+
+.Dashop-Layout .header .plan .Combined-Shape .Rectangle3 {
+  padding: 155px 77px 155px 78px;
+  border-radius: 2px;
+  background-color: #FFF;
+  margin: 46px 11px;
+}
+
+.Dashop-Layout .header .plan .Combined-Shape .Rectangle3 .logo {
+  width: 119px;
+  height: 48px;
+}
+
+.Dashop-Layout .header .plan .Combined-Shape .Home {
+  margin: 43px 0px;
+}
+
+.Dashop-Layout .header .plan .Combined-Shape .Home img {
+  width: 211px;
+  height: 390px;
+}
+
+.Dashop-Layout .header .plan .Combined-Shape .Rectangle4 {
+  padding: 171px 46px 171px 45px;
+  border-radius: 2px;
+  background-color: #d7171f;
+  margin: 46px 11px;
+}
+
+.Dashop-Layout .header .plan .Combined-Shape .Rectangle4 .logo {
+  width: 119px;
+  height: 48px;
+}
+
+.Dashop-Layout .header .plan .combined-change {
+  padding: 6px;
+  -webkit-box-shadow: 0 0 0 6px rgba(23, 88, 114, 0.15);
+          box-shadow: 0 0 0 6px rgba(23, 88, 114, 0.15);
+  border: solid 1px #175872;
+  background-color: #ffffff;
+}
+
+.Dashop-Layout .header .plan h2 {
+  opacity: 0.5;
+  font-family: HelveticaNeueLTW20;
+  font-size: 15px;
+  font-weight: bold;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.07;
+  letter-spacing: normal;
+  text-align: center;
+  color: #0b2339;
+}
+
+.Dashop-Layout .header .plan .submit {
+  text-align: center;
+  margin-top: 35px;
+}
+
+.Dashop-Layout .header .plan .submit .btn {
+  padding: 14px 67px 14px 66px;
+  -o-object-fit: contain;
+     object-fit: contain;
+  border-radius: 7px;
+  background-color: #175872;
+  font-family: HelveticaNeueLTW20;
+  font-size: 15px;
+  font-weight: bold;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.07;
+  letter-spacing: normal;
+  text-align: center;
+  color: #ffffff;
+}
+/*# sourceMappingURL=style.css.map */
